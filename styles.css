@@ -1,7 +1,7 @@
 /* ===== VARIABLES ===== */
 :root {
-    --primary-color: #00c896;
-    --primary-hover: #00a57a;
+    --primary-color: #E82561;
+    --primary-hover: #E9DFC3;
     --secondary-color: #6c757d;
     --dark-color: #0a0a0a;
     --light-color: #f8f9fa;
@@ -388,8 +388,8 @@ section {
 }
 
 .badge {
-    background-color: rgba(0, 200, 150, 0.1);
-    border: 1px solid rgba(0, 200, 150, 0.2);
+    background-color: #e8256112;
+    border: 1px solid #e82561;
     color: var(--primary-color);
     padding: 8px 16px;
     border-radius: 20px;
@@ -890,7 +890,7 @@ section {
     position: absolute;
     top: -15px;
     right: -7px;
-    color: #00c896;
+    color: white;
 }
 .mobile_pop {
     display: none;
