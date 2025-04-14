@@ -1,6 +1,6 @@
 /* ===== VARIABLES ===== */
 :root {
-    --primary-color: #E82561;
+    --primary-color: white;
     --primary-hover: #E9DFC3;
     --secondary-color: #6c757d;
     --dark-color: #0a0a0a;
@@ -389,7 +389,7 @@ section {
 
 .badge {
     background-color: #e8256112;
-    border: 1px solid #e82561;
+    border: 1px solid white;
     color: var(--primary-color);
     padding: 8px 16px;
     border-radius: 20px;
@@ -399,7 +399,7 @@ section {
 
 .badge:hover {
     background-color: var(--primary-color);
-    color: #fff;
+    color: black;
     transform: translateY(-3px);
 }
 
@@ -529,10 +529,15 @@ section {
 .portfolio-filters button:hover,
 .portfolio-filters button.active {
     background-color: var(--primary-color);
-    color: #fff;
+    color: black;
     border-color: var(--primary-color);
 }
-
+#portfolio .btn:hover {
+    color:black !important;
+}
+#portfolio .btn-primary {
+    color:black !important;
+}
 .portfolio-grid {
     margin-top: 30px;
 }
@@ -919,7 +924,14 @@ section {
     display: block;
     margin-top: auto;
 }
+#resume .card {
 
+    background-color: rgb(30 30 30 / 70%);
+}
+
+#resume .btn-primary {
+    color: black;
+}
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 991.98px) {
     h1 {
